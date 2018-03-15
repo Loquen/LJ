@@ -1,3 +1,20 @@
+.bg-color {
+  background-color: #E6E6E6;
+}
+
+.bg-color-main {
+  background-color: #41454d;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+
 body{
-  background-color: black;
+  background-color: #E6E6E6;
+}
+
+.button {
+  border-radius: 0 !important;
 }
