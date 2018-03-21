@@ -1,0 +1,4 @@
+1. add padding to top of jumbotron ~100px/50em
+2. integrate all images into repo
+3. finish formatting of 3 Picture display section
+4. finish formatting of web display section
