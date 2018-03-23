@@ -1,18 +1,20 @@
 .bg-color {
-  background-color: #E6E6E6;
+  background-color: #606369;
 }
 
 .bg-color-main {
-  background-color: #41454d;
+  background-color: white;
 }
 
-.jumbotron {
+.jumbo-space {
+  margin-top: 100em;
+  margin-bottom: 100em;
   background-color: transparent !important;
 }
 
 
 body{
-  background-color: #E6E6E6;
+  background-color: white;
 }
 
 .button {
@@ -24,4 +26,13 @@ body{
 	border-style: solid;
 	padding: 20px;
 	margin: auto;
+}
+
+.spacing {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.row-spacing {
+  margin-top: 40px;
 }
