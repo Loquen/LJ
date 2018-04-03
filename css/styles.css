@@ -22,7 +22,7 @@ body{
 }
 
 .box {
-	border-color: black;
+	border-color: white;
 	border-style: solid;
 	padding: 20px;
 	margin: auto;
@@ -35,4 +35,8 @@ body{
 
 .row-spacing {
   margin-top: 40px;
+}
+
+.title {
+  font-weight: bold;
 }

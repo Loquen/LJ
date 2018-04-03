@@ -1,10 +1,7 @@
 1. resize textile images*
-2. title each section
-3. remove box styling
-4. create division between sections <hr>
-5. write js for display/hide function of each sections
-6. link sites to sources
-7. onClick larger images for photos *
+2. write js for display/hide function of each sections
+5. about section?
+7. footer: contact info, github... flex for placement of items
 
 
 *if time

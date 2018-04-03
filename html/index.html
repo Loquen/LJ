@@ -18,7 +18,7 @@
 
   <body>
     <!--Nav Bar for whole site -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-color" id="home">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-color">
       <a class="navbar-brand" href="#home">LOQUEN JONES</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,110 +30,174 @@
             <a class="nav-link" href="#web">WEB<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#photo">PHOTO</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#graphic">GRAPHIC</a>
           </li>
-          <li class="nav-item">
+        <!--  <li class="nav-item">
             <a class="nav-link" href="#">TEXTILE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PHOTO</a>
-          </li>
+          </li>-->
+
         </ul>
       </div>
     </nav>
 
-      <!--<div class="row">
+      <!-- Jumbotron entry section
+      <div class="row">
         <div class="col-md-4">
         <div class="col-md"> -->
-          <div class="jumbotron jumbotron-fluid jumbo-color spacing jumbo-space">
+          <div class="jumbotron jumbotron-fluid jumbo-color spacing jumbo-space" id="home">
             <div class="container text-center">
               <h1 class="display-4">Welcome!</h1>
               <p class="lead">My name is Loquen Jones and I build things. Thanks for coming to check out what I've made.</p>
               <hr class="my-4">
               <p class="lead">
-                <a class="btn btn-secondary btn-lg rounded-0" href="#" role="button">Explore!</a>
+                <a class="btn btn-secondary btn-lg rounded-0" href="#web" role="button">Explore!</a>
               </p>
             </div>
           </div>
+
+          <!-- web display section: grid w/ image, text blurb on each line -->
+          <div class="container spacing" id="web">
+            <hr class="my-4">
+            <div class="row row-spacing">
+              <div class="box col-md-10">
+                <h2 class="title"> WEB </h2>
+              </div>
+            </div>
+            <hr class="my-4">
+          	<div class="row row-spacing">
+              <div class="box col-md-3 col-md-offset-1">
+          	  	<a href="https://www.openeyesseries.com/"><img src="../images/web/openeyesseries.jpg" alt="Open Eyes Series"></a>
+          	  </div>
+          	  <div class="box col-md-6 col-md-offset-1">
+          	     <p>A travel blog I cowrite with my girlfriend detailing our adventures around the world. Working on farms in foreign countries, trekking through remote alpine villages and exploring the cultures that surround us. All content is original including photography unless otherwise credited. Wordpress is the CMS used on this site.</p>
+          	  </div>
+          	</div>
+            <div class="row row-spacing">
+              <div class="box col-md-3 col-md-offset-1">
+          	  	<a href="http://struggleentertainment.com/"><img src="../images/web/struggleent.jpg" alt="Struggle Entertainment"></a>
+          	  </div>
+          	  <div class=" box col-md-6 col-md-offset-1">
+          	     <p>Struggle Entertainment is a collective of producers and musicians that put on events around the SF Bay Area. Founded in 2015 they recently opened a studio to continue their mission of spreading good vibes and great sounds. The site is built in HTML and CSS with Twitter's Bootstrap framework for styling. Jquery controls the single page site.</p>
+          	  </div>
+          	</div>
+            <div class="row row-spacing">
+              <div class="box col-md-3 col-md-offset-1">
+          	  	<a href="http://www.paradiseofparadox.com/"><img src="../images/web/paradise.jpg" alt="Paradise of Paradox"></a>
+          	  </div>
+          	  <div class=" box col-md-6 col-md-offset-1">
+          	     <p>A blog I cowrite with my friend. The content ranges from fiction to poetry to pros. Travel stories, moments of contradiction and ramblings on life and love. Another Wordpress site with a little Bootstrap for the landing page.</p>
+          	  </div>
+          	</div>
+          </div>
        <!--  </div>
       </div> -->
-    <!--photo display section: grid of three across when screen space. no border -->
-    <div class="container spacing" id="graphic">
-    	<div class="row row-spacing">
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="../images/photo/hereiam-thumb.jpg"  alt="Here I Am">
-    	    </div>
-    	    <div class="box col-md-3">
-            <img class="img-responsive" src="../images/photo/footprints-thumb.jpg"  alt="Foorprints">
-    	    </div>
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="../images/photo/legs-thumb.jpg"  alt="Legs">
-          </div>
-    	</div>
-      <div class="row row-spacing">
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="../images/photo/library-thumb.jpg"  alt="Library">
-    	    </div>
-    	    <div class="box col-md-3">
-            <img class="img-responsive" src="../images/photo/raindrops-thumb.jpg"  alt="Raindrops">
-    	    </div>
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="../images/photo/sunrise-thumb.jpg"  alt="Sunrise">
-          </div>
-    	</div>
-      <div class="row row-spacing">
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="../images/photo/sunset-thumb.jpg"  alt="Sunset">
-    	    </div>
-    	    <div class="box col-md-3">
-            <img class="img-responsive" src="../images/photo/surfing-thumb.jpg"  alt="Surfing">
-    	    </div>
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img class="img-responsive" src="../images/photo/toocool-thumb.jpg"  alt="Too Cool">
-          </div>
-    	</div>
-      <div class="row row-spacing">
-    	    <div class="box col-md-3 col-md-offset-1">
 
-    	  	  <img class="img-responsive" src="../images/photo/beach-thumb.jpg"  alt="Beach">
+
+    <!--photo display section: grid of three across when screen space. no border -->
+    <div class="container spacing" id="photo">
+      <hr class="my-4">
+      <div class="row row-spacing">
+        <div class="box col-md-10">
+          <h2 class="title"> PHOTO </h2>
+        </div>
+      </div>
+      <hr class="my-4">
+    	<div class="row row-spacing">
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/hereiam.jpg"><img class="img-responsive" src="../images/photo/hereiam-thumb.jpg"  alt="Here I Am"></a>
     	    </div>
-    	    <div class="box col-md-3">
-            <img src="../images/photo/cliff-thumb.jpg"  alt="Cliff">
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/footprints.jpg"><img class="img-responsive" src="../images/photo/footprints-thumb.jpg"  alt="Foorprints"></a>
     	    </div>
-    	    <div class="box col-md-3 col-md-offset-1">
-            <img src="../images/photo/endoftheworld-thumb.jpg" alt="End of the World">
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/legs.jpg"><img class="img-responsive" src="../images/photo/legs-thumb.jpg"  alt="Legs"></a>
+          </div>
+    	</div>
+      <div class="row row-spacing">
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/library.jpg"><img class="img-responsive" src="../images/photo/library-thumb.jpg"  alt="Library"></a>
+    	    </div>
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/raindrops.jpg"><img class="img-responsive" src="../images/photo/raindrops-thumb.jpg"  alt="Raindrops"></a>
+    	    </div>
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/sunrise.jpg"><img class="img-responsive" src="../images/photo/sunrise-thumb.jpg"  alt="Sunrise"></a>
+          </div>
+    	</div>
+      <div class="row row-spacing">
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/sunset.jpg"><img class="img-responsive" src="../images/photo/sunset-thumb.jpg"  alt="Sunset"></a>
+    	    </div>
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/surfing.jpg"><img class="img-responsive" src="../images/photo/surfing-thumb.jpg"  alt="Surfing"></a>
+    	    </div>
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/toocool.jpg"><img class="img-responsive" src="../images/photo/toocool-thumb.jpg"  alt="Too Cool"></a>
+          </div>
+    	</div>
+      <div class="row row-spacing">
+    	    <div class="box col-lg-3 col-md-6">
+
+    	  	  <a href="../images/photo/beach.jpg"><img class="img-responsive" src="../images/photo/beach-thumb.jpg"  alt="Beach"></a>
+    	    </div>
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/cliff.jpg"><img src="../images/photo/cliff-thumb.jpg"  alt="Cliff"></a>
+    	    </div>
+    	    <div class="box col-lg-3 col-md-6">
+            <a href="../images/photo/endoftheworld.jpg"><img src="../images/photo/endoftheworld-thumb.jpg" alt="End of the World"></a>
           </div>
     	</div>
     </div>
 
-    <!--graphic design display section: grid of three across when screen space. no border -->
+
+
+<!--graphic design display section: grid of three across when screen space. no border -->
     <div class="container spacing" id="graphic">
-    	<div class="row row-spacing">
-    	    <div class="box col-md-3 col-md-offset-1">
+      <hr class="my-4">
+      <div class="row row-spacing">
+        <div class="box col-md-10">
+          <h2 class="title"> GRAPHIC </h2>
+        </div>
+      </div>
+      <hr class="my-4">
+    	<div class="row">
+    	    <div class="box col-lg-3 col-md-6">
             <img class="img-responsive" src="../images/graphic/beggarsdelight.jpg"  alt="Beggars delight icon">
     	    </div>
-    	    <div class="box col-md-3">
+    	    <div class="box col-lg-3 col-md-6">
             <img class="img-responsive" src="../images/graphic/ee.jpg"  alt="EE logo">
     	    </div>
-    	    <div class="box col-md-3 col-md-offset-1">
+    	    <div class="box col-lg-3 col-md-6">
             <img class="img-responsive" src="../images/graphic/ggbw.jpg"  alt="GG white on black">
           </div>
     	</div>
-      <div class="row row-spacing">
-    	    <div class="box col-md-3 col-md-offset-1">
+      <div class="row">
+    	    <div class="box col-lg-3 col-md-6 ">
             <img class="img-responsive" src="../images/graphic/iconhi.jpg"  alt="The Blue Plug Icon">
     	    </div>
-    	    <div class="box col-md-3">
+    	    <div class="box col-lg-3 col-md-6">
             <img class="img-responsive" src="../images/graphic/struggleent.jpg"  alt="Struggle Entertainment">
     	    </div>
-    	    <div class="box col-md-3 col-md-offset-1">
+    	    <div class="box col-lg-3 col-md-6">
             <img class="img-responsive" src="../images/graphic/theblueplug.jpg"  alt="The Blue Plug">
           </div>
     	</div>
     </div>
 
+
+
     <!--textile design display section: grid of three across when screen space. no border --><!--
-    <div class="container spacing" id="graphic">
+      <div class="container spacing" id="textile">
+        <hr class="my-4">
+        <div class="row row-spacing">
+        <div class="box col-md-10">
+          <h2 class="title"> TEXTILE </h2>
+        </div>
+      </div>
+      <hr class="my-4">
     	<div class="row row-spacing">
     	    <div class="box col-md-3 col-md-offset-1">
             <img class="img-responsive" src="../images/textile/bubbles.jpg"  alt="Beggars delight icon">
@@ -159,35 +223,6 @@
     </div>
   -->
 
-    <!-- web display section: grid w/ image, text blurb on each line -->
-    <div class="container spacing" id="web">
-    	<div class="row row-spacing">
-        <div class="box col-md-3 col-md-offset-1">
-    	  	<img src="../images/web/openeyesseries.jpg" alt="Open Eyes Series">
-          <!--<p>Paradise of Paradox</p> -->
-    	  </div>
-    	  <div class=" box col-md-6 col-md-offset-1">
-    	     <p>A travel blog I cowrite with my girlfriend detailing our adventures around the world. Working on farms in foreign countries, trekking through remote alpine villages and exploring the cultures that surround us. All content is original including photography unless otherwise credited. Wordpress is the CMS used on this site.</p>
-    	  </div>
-    	</div>
-      <div class="row row-spacing">
-        <div class="box col-md-3 col-md-offset-1">
-    	  	<img src="../images/web/struggleent.jpg" alt="Struggle Entertainment">
-          <!--<p>Paradise of Paradox</p> -->
-    	  </div>
-    	  <div class=" box col-md-6 col-md-offset-1">
-    	     <p>Struggle Entertainment is a collective of producers and musicians that put on events around the SF Bay Area. Founded in 2015 they recently opened a studio to continue their mission of spreading good vibes and great sounds. The site is built in HTML and CSS with Twitter's Bootstrap framework for styling. Jquery controls the single page site.</p>
-    	  </div>
-    	</div>
-      <div class="row row-spacing">
-        <div class="box col-md-3 col-md-offset-1">
-    	  	<img src="../images/web/paradise.jpg" alt="Paradise of Paradox">
-          <!--<p>Paradise of Paradox</p> -->
-    	  </div>
-    	  <div class=" box col-md-6 col-md-offset-1">
-    	     <p>A blog I cowrite with my friend. The content ranges from fiction to poetry to pros. Travel stories, moments of contradiction and ramblings on life and love. Another Wordpress site with a little Bootstrap for the landing page.</p>
-    	  </div>
-    	</div>
-    </div>
+
   </body>
 </html>
