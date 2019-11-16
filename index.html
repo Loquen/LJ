@@ -6,14 +6,20 @@
     <meta name="author" content="Loquen Jones">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Loquen Jones</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-color">
-      <a class="navbar-brand" href="#home" id="nav-jumbo">LOQUEN JONES</a>
+      <div class="parallax">
+          <h1>L O Q U E N &nbsp;&nbsp; J O N E S</h1>
+          <br>
+          <p>WEB DEVELOPER | FRONT END | FULL STACK</p>
+        </div>
+        <div>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-color">
+      <a class="navbar-brand" href="#home" id="nav-jumbo">LRJ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,21 +32,26 @@
         </ul>
       </div>
     </nav>
+  <div class="jumbotron jumbotron-fluid jumbo-color jumbo-space" id="home">
+    <div class="container">
+      <div class="row">
 
-  <div class="jumbotron jumbotron-fluid jumbo-color  jumbo-space" id="home">
-    <div class="container text-center">
-      <h1 class="display-4"><strong>Loquen Jones</strong></h1>
-      <p class="lead">
-        Solutions oriented software engineer with a growth mindset that excels at creatively 
-        solving problems with flexibility and curiosity. Driven by a desire to 
-        improve the lives of all while constantly looking for ways to push himself and 
-        expand his knowledge base and worldview. He discovered a fascination with learning 
-        at a young age and has used the power of the internet to improve himself on a daily 
-        basis ever since. Combining creativity and unique perspectives, Loquen's passion 
-        throughout his life has always been to build things, most specifically things that 
-        are interactive, web development provides the perfect playground for him with this 
-        ability to constantly create, explore and innovate. 
-      </p>
+        <img class="profile-pic" src="./images/best-round.jpg" alt="Loquen Jones">
+        <h1 class="display-4 name"><strong class="">Loquen Jones</strong></h1>
+      </div>
+      <div class="row">
+        <p class="lead">
+          Solutions oriented software engineer with a growth mindset that excels at creatively 
+          solving problems with flexibility and curiosity. Driven by a desire to 
+          improve the lives of all while constantly looking for ways to push himself and 
+          expand his knowledge base and worldview. He discovered a fascination with learning 
+          at a young age and has used the power of the internet to improve himself on a daily 
+          basis ever since. Combining creativity and unique perspectives, Loquen's passion 
+          throughout his life has always been to build things, most specifically things that 
+          are interactive, web development provides the perfect playground for him with this 
+          ability to constantly create, explore and innovate. 
+        </p>
+      </div>
       &nbsp;&nbsp;
       <p>
         Please reach out with any opportunities with React and JavaScript. 
@@ -71,10 +82,10 @@
     </div>
     <hr class="my-4">
     <div class="row row-spacing">
-      <div class="box col-sm-12 col-md-3 col-md-offset-1">
-        <a href="https://sit-lrj.herokuapp.com/"><img src="../images/web/sit.jpg" alt="Sit - Mediation Tracking"></a>
+      <div class="box col-sm-12 col-md-8">
+        <a href="https://sit-lrj.herokuapp.com/"><img src="./images/web/sit.jpg" alt="Sit - Mediation Tracking"></a>
       </div>
-      <div class="box col-md-6 col-md-offset-1">
+      <div class="box col-md-4 col-sm-12">
         <h3>Sit</h3>
         <p>
           A meditation tracking app offering a timer or users can choose a video to guide them. 
@@ -88,10 +99,10 @@
       </div>
     </div>
     <div class="row row-spacing">
-      <div class="box col-md-3 col-md-offset-1">
-        <a href="http://bandtogether-lmj.herokuapp.com/"><img src="../images/web/band-together.jpg" alt="Struggle Entertainment"></a>
+      <div class="box col-sm-12 col-md-8">
+        <a href="http://bandtogether-lmj.herokuapp.com/"><img src="./images/web/band-together.jpg" alt="Band Together"></a>
       </div>
-      <div class=" box col-md-6 col-md-offset-1">
+      <div class="box col-md-4 col-sm-12">
         <h3>Band Together</h3>
         <p>
           Band Together is a platform for music venues and concert goers to vend and purchase
@@ -107,10 +118,10 @@
       </div>
     </div>
     <div class="row row-spacing">
-      <div class="box col-md-3 col-md-offset-1">
-        <a href="http://habit-lrj.herokuapp.com/"><img src="../images/web/habit.jpg" alt="Paradise of Paradox"></a>
+      <div class="box col-sm-12 col-md-8">
+        <a href="http://praxis-lrj.herokuapp.com/"><img src="./images/web/habit.jpg" alt="Praxis"></a>
       </div>
-      <div class=" box col-md-6 col-md-offset-1">
+      <div class="box col-md-4 col-sm-12">
         <h3>Praxis</h3>
         <p>
           Designed and built a full stack habit tracking application using HTML, CSS, 
@@ -122,10 +133,10 @@
       </div>
     </div>
     <div class="row row-spacing">
-        <div class="box col-md-3 col-md-offset-1">
-          <a href="https://loquen.github.io/checkers/"><img src="../images/web/checkers.jpg" alt="Paradise of Paradox"></a>
+        <div class="box col-sm-12 col-md-8">
+          <a href="https://loquen.github.io/checkers/"><img src="./images/web/checkers.jpg" alt="Checkers"></a>
         </div>
-        <div class=" box col-md-6 col-md-offset-1">
+        <div class="box col-md-4 col-sm-12">
           <h3>Checkers</h3>
           <p>
             Built Checkers from scratch using HTML, CSS and JavaScript following the 
@@ -139,7 +150,7 @@
       </div>
   </div>
   <hr>
-      
+</div>
   <footer class="footer container">
     <div class="d-flex justify-content-end text-muted">
       <div class="mr-auto p-2">© Loquen Jones</div>
