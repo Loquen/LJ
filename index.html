@@ -6,18 +6,22 @@
     <meta name="author" content="Loquen Jones">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Loquen Jones</title>
   </head>
 
   <body>
-      <div class="parallax">
-          <h1>L O Q U E N &nbsp;&nbsp; J O N E S</h1>
-          <br>
-          <p>WEB DEVELOPER | FRONT END | FULL STACK</p>
-        </div>
-        <div>
+    <div class="parallax">
+      <div class="center-name">
+        <h1>L O Q U E N</h1>
+        <h1>J O N E S</h1>
+      </div>
+      <br>
+      <p>WEB DEVELOPER | FRONT END | FULL STACK</p>
+    </div>
+    <div>
     <nav class="navbar navbar-expand-md navbar-light sticky-top bg-color">
       <a class="navbar-brand" href="#home" id="nav-jumbo">LRJ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,22 +39,30 @@
   <div class="jumbotron jumbotron-fluid jumbo-color jumbo-space" id="home">
     <div class="container">
       <div class="row">
-
-        <img class="profile-pic" src="./images/best-round.jpg" alt="Loquen Jones">
-        <h1 class="display-4 name"><strong class="">Loquen Jones</strong></h1>
+        <div class="col-sm-12 col-md-6">
+          <div class="img center-heading">
+            <img class="profile-pic" src="./images/best-round.jpg" alt="Loquen Jones">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 main-name center-heading">
+          <h1 class="display-4 main-name"><strong class="">Loquen Jones</strong></h1>
+        </div>
       </div>
       <div class="row">
-        <p class="lead">
-          Solutions oriented software engineer with a growth mindset that excels at creatively 
-          solving problems with flexibility and curiosity. Driven by a desire to 
-          improve the lives of all while constantly looking for ways to push himself and 
-          expand his knowledge base and worldview. He discovered a fascination with learning 
-          at a young age and has used the power of the internet to improve himself on a daily 
-          basis ever since. Combining creativity and unique perspectives, Loquen's passion 
-          throughout his life has always been to build things, most specifically things that 
-          are interactive, web development provides the perfect playground for him with this 
-          ability to constantly create, explore and innovate. 
-        </p>
+        <div class="col-sm-12">
+
+          <p class="lead">
+            Solutions oriented software engineer with a growth mindset that excels at creatively 
+            solving problems with flexibility and curiosity. Driven by a desire to 
+            improve the lives of all while constantly looking for ways to push himself and 
+            expand his knowledge base and worldview. He discovered a fascination with learning 
+            at a young age and has used the power of the internet to improve himself on a daily 
+            basis ever since. Combining creativity and unique perspectives, Loquen's passion 
+            throughout his life has always been to build things, most specifically things that 
+            are interactive, web development provides the perfect playground for him with this 
+            ability to constantly create, explore and innovate. 
+          </p>
+        </div>
       </div>
       &nbsp;&nbsp;
       <p>
@@ -82,17 +94,42 @@
     </div>
     <hr class="my-4">
     <div class="row row-spacing">
-      <div class="box col-sm-12 col-md-8">
-        <a href="https://sit-lrj.herokuapp.com/"><img src="./images/web/sit.jpg" alt="Sit - Mediation Tracking"></a>
+      <!-- <div class="box col-sm-12 col-md-8">
+        <a href="https://fernroycequilting.com/">
+          <div class="project-img">
+            <img src="./images/web/fernroycequilting.png" alt="Fern Royce Quilting">
+          </div>
+        </a>
       </div>
       <div class="box col-md-4 col-sm-12">
-        <h3>Sit</h3>
+        <h3>Fern Royce Quilting</h3>
+        <p>
+          A freelance project for a local quilting teacher and lecturer, which helps her clients and students discover 
+          the next events and workshops to attend and for potential clients to get in touch. 
+        </p>
+        <p>
+          Built as a Full Stack application using the MERN Stack (Mongo, Express, React and Node). 
+          There is also an admin area for the client to update workshop and event information.</p>
+        </p>
+        <a href="https://www.github.com/Loquen/fernroycequilting">Github</a>
+      </div>
+    </div> -->
+    <div class="row row-spacing">
+      <div class="box col-sm-12 col-md-8">
+        <a href="https://sit-lrj.herokuapp.com/">
+          <div class="project-img">
+            <img src="./images/web/sit.jpg" alt="Sit - Mediation Tracking">
+          </div>
+        </a>
+      </div>
+      <div class="box col-md-4 col-sm-12">
+        <h3 class="center-project">Sit</h3>
         <p>
           A meditation tracking app offering a timer or users can choose a video to guide them. 
           The user can then display back how much time they have spent per week, month and year.
         </p>
         <p>
-          Built as a Full Stack application using the MERN Stack ( Mongo, Express, React and Node). 
+          Built as a Full Stack application using the MERN Stack (Mongo, Express, React and Node). 
           It includes integration of Youtube's API as well as JWT token based authentication.</p>
         </p>
         <a href="https://www.github.com/Loquen/Sit">Github</a>
@@ -100,10 +137,14 @@
     </div>
     <div class="row row-spacing">
       <div class="box col-sm-12 col-md-8">
-        <a href="http://bandtogether-lmj.herokuapp.com/"><img src="./images/web/band-together.jpg" alt="Band Together"></a>
+        <a href="http://bandtogether-lmj.herokuapp.com/">
+          <div class="project-img">
+            <img src="./images/web/band-together.jpg" alt="Band Together">
+          </div>
+        </a>
       </div>
       <div class="box col-md-4 col-sm-12">
-        <h3>Band Together</h3>
+        <h3 class="center-project">Band Together</h3>
         <p>
           Band Together is a platform for music venues and concert goers to vend and purchase
           tickets to events. Collaborated with team to create a Full stack application 
@@ -119,10 +160,14 @@
     </div>
     <div class="row row-spacing">
       <div class="box col-sm-12 col-md-8">
-        <a href="http://praxis-lrj.herokuapp.com/"><img src="./images/web/habit.jpg" alt="Praxis"></a>
+        <a href="http://praxis-lrj.herokuapp.com/">
+          <div class="project-img">
+            <img src="./images/web/habit.jpg" alt="Praxis">
+          </div>
+        </a>
       </div>
       <div class="box col-md-4 col-sm-12">
-        <h3>Praxis</h3>
+        <h3 class="center-project">Praxis</h3>
         <p>
           Designed and built a full stack habit tracking application using HTML, CSS, 
           JavaScript, Node/Express and Mongoose with Google’s OAuth integration.
@@ -134,10 +179,14 @@
     </div>
     <div class="row row-spacing">
         <div class="box col-sm-12 col-md-8">
-          <a href="https://loquen.github.io/checkers/"><img src="./images/web/checkers.jpg" alt="Checkers"></a>
+          <a href="https://loquen.github.io/checkers/">
+            <div class="project-img">
+              <img src="./images/web/checkers.jpg" alt="Checkers">
+            </div>
+          </a>
         </div>
         <div class="box col-md-4 col-sm-12">
-          <h3>Checkers</h3>
+          <h3 class="center-project">Checkers</h3>
           <p>
             Built Checkers from scratch using HTML, CSS and JavaScript following the 
             MVC design pattern and principles of Object Oriented Programming. Successfully 
@@ -152,16 +201,12 @@
   <hr>
 </div>
   <footer class="footer container">
-    <div class="d-flex justify-content-end text-muted">
-      <div class="mr-auto p-2">© Loquen Jones</div>
+    <div class="d-flex justify-content-end text-muted foot">
+      <div class="mr-auto p-2 copyright">© Loquen Jones</div>
       <div class="p-2">510.260.6635</div>
       <div class="p-2"><a href="mailto:lrjones416@gmail.com">lrjones416@gmail.com</a></div>
       <div class="p-2"><a href="/LoquenJones.resume.pdf" download>Resume</a></div>
     </div>
-
-    <!-- <div class="d-flex">
-      <p class=""><span></span><span> </span></p>
-    </div> -->
   </footer>
 
   </body>

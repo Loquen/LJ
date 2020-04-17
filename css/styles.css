@@ -2,7 +2,6 @@ body, html {
   height: 100%;
 }
 
-
 .bg-color {
   background-color: #6C757D;
 }
@@ -80,4 +79,62 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.center-name {
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 20px;
+}
+
+.center-name h1{
+  margin: 0 20px;
+}
+
+#home .main-name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+} 
+
+
+
+@media only screen and (max-width: 500px){
+  #home .center-heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-name {
+    flex-direction: column;
+  }
+  
+  .center-name h1 {
+    margin: 20px;
+  }
+
+  .box .title{
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-img img {
+    width: 100%;
+  }
+
+  .center-project {
+    text-align: center;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright {
+    margin-right: 0 !important;
+  }
 }
