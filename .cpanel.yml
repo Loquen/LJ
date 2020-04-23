@@ -6,4 +6,3 @@
       - /bin/cp styles.css $DEPLOYPATH
       - /bin/cp LoquenJones.resume.pdf $DEPLOYPATH
       - /bin/cp -R images $DEPLOYPATH
-      - /bin/cp -R images $DEPLOYPATH
